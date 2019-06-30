@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "Ruby",
+            "request": "launch",
+            "name": "ruby",
+            "useBundler": true,
+            "pathToBundler": "C:/Ruby26-x64/bin/bundle.cmd",
+            // "pathToRDebugIDE": "C:/Ruby26-x64/bin/rdebug-ide.bat",
+            "program": "${workspaceRoot}/gmail.rb"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "nodejs",
+            "envFile": "${workspaceFolder}/.env",
+            "program": "${workspaceFolder}/gmail.js"
+        }
+    ]
+}

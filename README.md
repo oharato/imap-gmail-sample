@@ -27,6 +27,9 @@ Ruby+Devkit 2.6.3-1 (x64)
 ### 実行
 
 ```sh
+cp .env.sample .env
+# .env を任意のエディタで開き、ACCOUNTとPASSWORDを編集する
+
 bundle install
 bundle exec ruby gmail.rb
 ```
@@ -52,6 +55,9 @@ npm install -g node-gyp
 ### 実行
 
 ```sh
+cp .env.sample .env
+# .env を任意のエディタで開き、ACCOUNTとPASSWORDを編集する
+
 npm install
 npm start
 ```

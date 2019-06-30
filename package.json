@@ -1,14 +1,14 @@
 {
-  "name": "imap_simple_test",
+  "name": "imap-gmail-sample",
   "version": "1.0.0",
-  "description": "",
+  "description": "imap-gmail-sample",
   "main": "gmail.js",
   "scripts": {
     "start": "env-cmd node gmail.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "oharato",
+  "license": "MIT",
   "dependencies": {
     "env-cmd": "^9.0.3",
     "iconv": "^2.3.4",
